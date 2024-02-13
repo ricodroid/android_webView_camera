@@ -28,6 +28,7 @@
         </intent>
     </queries>
 
+    <!--  http通信を許可している。ローカルを参照しないときは、falseにするか、usesCleartextTrafficの定義を削除する  -->
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
